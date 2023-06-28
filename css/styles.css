@@ -126,6 +126,21 @@ img {
   transition: color 300ms linear;
 }
 
+.current {
+  position: relative;
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: -28px;
+  border-radius: 2px;
+  background-color: #404bbf;
+}
+
 .header-menu-link:hover {
   color: #404bbf;
 }
@@ -601,6 +616,10 @@ img {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+
+.footer-box {
+  margin-right: 120px;
 }
 
 .footer-logo span {
