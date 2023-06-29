@@ -644,10 +644,10 @@ img {
 .footer-all-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .footer-container {
+  margin-right: 120px;
 }
 
 .footer-soc-container {
@@ -733,8 +733,6 @@ img {
 
 .footer-soc-icon {
   fill: #f4f4fd;
-  width: 24;
-  height: 24;
 }
 
 .backdrop {
