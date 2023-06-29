@@ -200,9 +200,6 @@ img {
   background-size: cover;
 }
 
-.hero-container {
-}
-
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -649,9 +646,6 @@ img {
 
 .footer-container {
   margin-right: 120px;
-}
-
-.footer-soc-container {
 }
 
 .footer-logo span {
