@@ -187,10 +187,8 @@ img {
 
 .hero {
   background-color: #2e2f42;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
     url(../images/people-office\ .jpg);
   padding: 188px 0 188px;
   max-width: 1440px;
@@ -280,8 +278,7 @@ img {
   overflow: hidden;
 }
 
-.name-benefits {
-}
+.name-benefits {}
 
 .benefits-list {
   display: flex;
@@ -342,8 +339,7 @@ img {
   padding-bottom: 120px;
 }
 
-.team-container {
-}
+.team-container {}
 
 .subtitle-container {
   padding: 32px 0;
@@ -566,6 +562,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 .prospects-title {
   margin-bottom: 8px;
 }
@@ -637,14 +634,16 @@ img {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-}
 
-.footer-all-container {
-  display: flex;
-  align-items: baseline;
 }
 
 .footer-container {
+  display: flex;
+  align-items: baseline;
+
+}
+
+.footer-pack {
   margin-right: 120px;
 }
 
@@ -688,7 +687,6 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-
   margin-bottom: 16px;
 }
 
@@ -728,6 +726,7 @@ img {
 
 .footer-soc-icon {
   fill: #f4f4fd;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .backdrop {
