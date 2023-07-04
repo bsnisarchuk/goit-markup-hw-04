@@ -897,6 +897,10 @@ img {
   margin-bottom: 16px;
 }
 
+.modal-form-container {
+  margin-bottom: 8px;
+}
+
 .modal-input {
   width: 100%;
   height: 40px;
