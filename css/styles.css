@@ -196,8 +196,6 @@ img {
   background-size: cover;
 }
 
-
-
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -742,7 +740,79 @@ img {
 
 .footer-soc-icon {
   fill: #f4f4fd;
+}
 
+.subscribe {
+  margin-left: 80px;
+}
+
+.subscribe-form {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.subscribe-text {
+  color: #FFF;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.50;
+  letter-spacing: 0.32px;
+}
+
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 16px;
+  border: 1px solid #FFF;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+}
+
+.subscribe-input::placeholder {
+  color: #FFF;
+  font-size: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.00;
+  letter-spacing: 0.48px;
+}
+
+.subscribe-btn {
+  font-size: 16px;
+  min-width: 165px;
+  height: 40px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #FFF;
+  background: #4D5AE5;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  margin-top: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:is(:hover, :focus) {
+  background-color: #404bbf;
+}
+
+.subscribe-img {
+  margin-left: 16px;
+  align-items: center;
+  justify-content: center;
+  fill: #FFFFFF;
 }
 
 .backdrop {
@@ -768,6 +838,10 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
 }
 
 .backdrop.is-hidden .modal {
@@ -806,6 +880,137 @@ img {
   fill: #ffffff;
   background-color: #404bbf;
   border: none;
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #2e2f42;
+  margin-bottom: 34px;
+}
+
+.modal-input {
+  width: 100%;
+  height: 58px;
+  border: 1px solid rgba(46, 47, 66, 0.40);
+  border-radius: 4px;
+  padding-left: 34px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal-input:focus {
+  border-color: #4D5AE5;
+}
+
+.modal-input:focus+.input-icon {
+  fill: #4D5AE5;
+}
+
+.modal-name {
+  font-size: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+  color: #8E8F99;
+}
+
+.input-icon {
+  fill: #2E2F42;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.modal-textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgba(46, 47, 66, 0.40);
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+  color: rgba(46, 47, 66, 0.40);
+  resize: none;
+}
+
+.modal-textarea:focus {
+  border-color: #4D5AE5;
+}
+
+.check-text {
+  color: #8E8F99;
+  font-size: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.48px;
+}
+
+.check-text a {
+  color: #4D5AE5;
+  text-decoration: underline;
+}
+
+.send-btn {
+  width: 169px;
+  height: 56px;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.50;
+  letter-spacing: 0.64px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background-color: #4D5AE5;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.send-btn:is(:hover, :focus) {
+  background-color: #404bbf;
+}
+
+.modal-textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.48px;
+  color: rgba(46, 47, 66, 0.40);
 }
 
 .is-hidden {
