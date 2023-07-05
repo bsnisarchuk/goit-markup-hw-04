@@ -998,7 +998,7 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
+
   display: inline-flex;
   margin-right: 8px;
   align-items: center;
@@ -1006,11 +1006,6 @@ img {
   fill: transparent;
 }
 
-.modal-span {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
-  fill: transparent;
-}
 
 .input-checkbox:checked+.check-text span {
   background-color: #404BBF;
