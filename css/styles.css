@@ -897,6 +897,10 @@ img {
   margin-bottom: 16px;
 }
 
+.modal-form-container {
+  margin-bottom: 8px;
+}
+
 
 .modal-input {
   width: 100%;
@@ -916,6 +920,10 @@ img {
 
 .modal-input:focus+.input-icon {
   fill: #4D5AE5;
+}
+
+.modal-field {
+  margin-bottom: 16px
 }
 
 .modal-name {
@@ -998,10 +1006,16 @@ img {
   fill: transparent;
 }
 
+.modal-span {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-flex;
+  fill: transparent;
+}
+
 .input-checkbox:checked+.check-text span {
   background-color: #404BBF;
   border: none;
-  fill: #ffffff;
+  fill: #F4F4FD;
 }
 
 .check-text a {
