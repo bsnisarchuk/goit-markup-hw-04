@@ -927,6 +927,7 @@ img {
 }
 
 .modal-name {
+  display: block;
   font-size: 12px;
   font-family: Roboto;
   font-style: normal;
@@ -987,7 +988,6 @@ img {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.48px;
-  display: inline-flex;
   align-items: center;
 }
 
