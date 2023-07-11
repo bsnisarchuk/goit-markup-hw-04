@@ -1,14 +1,11 @@
 @media screen and (min-width: 428px) {
-
-    /************* HEADER ***********/
-    .header-container {
-        height: 70px;
+    .container {
+        max-width: 428px;
     }
+
+    /* *********HEADER*********** */
 
     /* *************BENEFITS *************/
-    .container {
-        max-width: 426px;
-    }
 
     .benefits {
         padding-left: 16px;
@@ -60,8 +57,16 @@
 
     .header-contacts {
         display: flex;
-        font-style: normal;
-        margin-left: auto;
+
+    }
+
+    .header-contacts-item {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .open-contact-btn {
+        display: none;
     }
 
     .hero {
@@ -153,6 +158,19 @@
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+    }
+
+    /* .header-contacts {
+        display: flex;
+        font-style: normal;
+        margin-left: auto;
+    } */
+
+    .header-contacts-item {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 40px;
     }
 
     .hero {
