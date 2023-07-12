@@ -302,16 +302,23 @@
         display: flex;
         align-items: baseline;
         flex-wrap: nowrap;
-        max-width: 1158px;
+
     }
 
     .footer-pack {
         margin-right: 120px;
+
     }
 
     .hero {
         padding: 188px 0;
         max-width: 1440px;
     }
+
+    .mob-menu {
+        display: none;
+    }
+
+
 
 }
