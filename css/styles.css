@@ -76,7 +76,6 @@ img {
   align-items: center;
 }
 
-
 .header-menu {
   display: none;
   min-width: 261px;
@@ -252,9 +251,13 @@ img {
 .link {}
 
 .mob-contact-list {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
+}
+
+.mob-contact-item {
+  margin-bottom: 40px;
 }
 
 .header-contacts-item-link {}
@@ -278,6 +281,14 @@ img {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.mob-menu-link:hover {
+  color: #404bbf;
+}
+
+.mob-menu-link:focus {
+  color: #404bbf;
 }
 
 .mob-soc-list {
@@ -604,22 +615,13 @@ img {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px 24px;
+  gap: 72px 16px;
   justify-content: center;
-  /* align-items: center; */
-  /* fill: #8e8f99; */
 }
 
 .customers-item {
   height: 88px;
-  /* width: calc((100% - 16px) / 2); */
-  /* width: 190px; */
-  /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-  /* display: flex; */
-  /* gap: 24px; */
-  /* align-items: center; */
-  /* justify-content: center; */
+  width: calc((100% - 16px) / 2);
 }
 
 .customers-link {
@@ -1087,7 +1089,6 @@ img {
 .modal-form-container {
   margin-bottom: 8px;
 }
-
 
 .modal-input {
   width: 100%;
