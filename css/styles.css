@@ -205,6 +205,8 @@ img {
   margin-bottom: 32px;
 }
 
+
+
 .close-contact-btn {
   position: absolute;
   top: 24px;
@@ -270,6 +272,7 @@ img {
   line-height: 24px;
   letter-spacing: 0.4px;
   color: #434455;
+  text-transform: lowercase;
 }
 
 .mob-contacts-link {
@@ -1243,7 +1246,7 @@ img {
 }
 
 .is-hidden {
-  visibility: hidden;
+  display: none;
   opacity: 0;
   pointer-events: none;
 }
