@@ -8,12 +8,17 @@
     /* *************BENEFITS *************/
 
     .benefits {
-        padding-left: 16px;
-        padding-right: 16px;
+        /* padding-left: 16px;
+        padding-right: 16px; */
     }
 
     .skill {
         display: none;
+    }
+
+    .footer-pack {
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
@@ -21,6 +26,10 @@
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+    }
+
+    .header-logo {
+        margin-right: 76px;
     }
 
     .header-menu {
@@ -87,8 +96,12 @@
         row-gap: 64px;
     }
 
+    .customers-container {
+        /* width: 768px; */
+    }
+
     .customers-list {
-        column-gap: 24px;
+        gap: 72px 24px;
     }
 
     .customers-item {
@@ -176,6 +189,9 @@
         flex-direction: row;
         flex-wrap: nowrap;
         text-align: left;
+        /* width: 100%;
+        margin-left: auto;
+        margin-right: auto; */
     }
 
     .subscribe-form {
@@ -196,7 +212,9 @@
     }
 
     .subscribe-label {
-        width: 100%;
+        /* width: 100%; */
+        width: 264px;
+
     }
 
 
@@ -215,14 +233,10 @@
     }
 
     .hero {
-        padding: 188px 0;
-        max-width: 1440px;
-    }
-
-    .hero {
         background-color: #2e2f42;
-        /* padding: 188px 0 188px; */
-        padding: 112px 0;
+        max-width: 1440px;
+        padding: 188px 0 188px;
+        /* padding: 112px 0; */
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/people-office.jpg);
