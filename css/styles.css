@@ -807,6 +807,7 @@ img {
 
 .footer-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: baseline;
   gap: 72px 24px;
